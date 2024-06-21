@@ -1,0 +1,104 @@
+body {
+    background-color: #FEE2E2;
+    font-family: "Poppins", sans-serif;
+    line-height: 1.5;
+    color: rgba(78, 78, 78, 0.7);
+    font-weight: 500;
+}
+
+.black {
+    color: rgb(31, 31, 31, 0.9);
+    font-weight: bolder;
+}
+
+.reset{
+    color: rgba(78, 78, 78, 0.7);
+    font-weight: 500;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border-radius: 10px;
+    background-color: white;
+    padding: 20px;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.heading{
+    font-size: 1.5rem;
+}
+
+.sub-heading{
+    margin-top: 0;
+}
+
+.link {
+    display: inline-flex;
+    color: blueviolet;
+    align-items: center;
+}
+
+.link:hover {
+    cursor: pointer;
+    color: blue;
+}
+
+table {
+    width: 1000px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 5px;
+}
+
+tr {
+    height: 5rem;
+    border-bottom: 1px solid lightgrey;
+}
+
+tr:hover {
+    background-color: rgb(245, 239, 239);
+}
+
+.last-row{
+    border-bottom: none;
+}
+
+.chip-completed {
+    display: inline;
+    background-color: #DCFCE7;
+    color: #508565;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+.chip-pending {
+    display: inline;
+    background-color: #FEF9C3;
+    color: #BB7647;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+.chip-canceled {
+    display: inline;
+    background-color: #FEE2E2;
+    color: #A81D1D;
+    padding: 5px 10px 5px 10px;
+    border-radius: 50px;
+}
+
+.more:hover {
+    cursor: pointer;
+}
