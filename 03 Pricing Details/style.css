@@ -1,0 +1,101 @@
+body {
+    background-color: #161C2C;
+    font-family: "Roboto", sans-serif;
+    color: rgba(0, 0, 0, 0.829);
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    font-weight: 400;
+}
+
+.container {
+    display: flex;
+    height: 95vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.checkout-window {
+    background-color: white;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 450px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+    border-radius: 10px;
+    margin: 15px;
+    width: 75px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.list-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgray;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+.list-item:hover {
+    cursor: pointer;
+    background-color: rgba(211, 211, 211, 0.26);
+}
+
+.remove-item {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #000;
+}
+
+.remove-item:hover .material-symbols-outlined {
+    color: red;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.checkout-button {
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #473CF1;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    transition: opacity 0.3s ease;
+}
+
+button:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+.pricing,
+.shipping,
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.shipping-fee {
+    color: #6ED49E;
+    font-weight: bold;
+}
