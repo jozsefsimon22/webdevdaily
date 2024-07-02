@@ -10,9 +10,8 @@ This repository contains my weekly submissions for the design challenges provide
 
 Below is a list of completed challenges. Each link will navigate to the corresponding project folder:
 
-- [Week 1](week1)
-- [Week 2](week2)
-- [Week 3](week3)
-- [Week 4](week4)
+- [Week 1](https://dashboard-jsimon.netlify.app/) - Dashboard
+- [Week 2](https://work-layout.netlify.app/) - Work Layout
+- [Week 3](https://pricing-details.netlify.app/) - Pricing Details
 
 (The list will be updated as new challenges are completed.)
