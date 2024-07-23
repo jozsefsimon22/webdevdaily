@@ -13,5 +13,6 @@ Below is a list of completed challenges. Each link will navigate to the correspo
 - [Week 1](https://dashboard-jsimon.netlify.app/) - Dashboard
 - [Week 2](https://work-layout.netlify.app/) - Work Layout
 - [Week 3](https://pricing-details.netlify.app/) - Pricing Details
+- [Week 4](https://profile-card-jsimon.netlify.app/) - Profile Card
 
 (The list will be updated as new challenges are completed.)
