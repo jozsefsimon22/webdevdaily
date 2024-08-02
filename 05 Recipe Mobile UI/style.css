@@ -1,0 +1,130 @@
+body{
+    background-color: rgb(107, 105, 105);
+    color: white;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+p{
+    color: grey;
+}
+
+p > b{
+    color: white;
+}
+
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile{
+    width: 393px;
+    height: 750px;
+    padding: 1rem;
+    background-color: rgb(33, 33, 33);
+    background: linear-gradient(rgb(61 61 61) 29%,rgb(33, 33, 33) 10%);
+    border-radius: 10px;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+}
+
+
+.food-image{
+    display: flex;
+    justify-content: center;
+}
+
+.food-image > img{
+    width: 300px;
+    scale: 1.2;
+}
+
+svg{
+    scale: 1.2;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info > div{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+
+.time > svg{
+    color: rgb(204, 227, 250);
+}
+
+.calories > svg{
+    color: rgb(238, 151, 64);
+}
+
+.raiting > svg{
+    color: rgb(245, 212, 119);
+}
+
+hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: rgb(61 61 61);
+    border-color: rgb(61 61 61);
+    background-color: rgb(61 61 61);
+}
+
+.ingredients-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ingredients{
+    display: flex;
+    gap: 1rem;
+    overflow-y: scroll;
+}
+
+.card{
+    margin-top: 1rem;
+    min-width: 95px;
+    height: 110px;
+    background-color: rgb(61 61 61);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.card > img{
+    width: 35px;
+    height: 35px;
+}
+
+
+.ingredient-quantity{
+    font-size: 10px;
+    color: gray;
+}
+
+#quantity{
+    color: gray;
+    font-size: 15px;
+}
+
+.ingredient-name{
+    font-size: 14px;
+    
+}
