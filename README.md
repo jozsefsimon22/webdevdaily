@@ -14,5 +14,8 @@ Below is a list of completed challenges. Each link will navigate to the correspo
 - [Week 2](https://work-layout.netlify.app/) - Work Layout
 - [Week 3](https://pricing-details.netlify.app/) - Pricing Details
 - [Week 4](https://profile-card-jsimon.netlify.app/) - Profile Card
+- [Week 5](https://recipie-mobile-ui.netlify.app/) - Recipie Mobile UI
+- [Week 6](https://pricing-table-jsimon.netlify.app/) - Pricing Card
+
 
 (The list will be updated as new challenges are completed.)
