@@ -1,0 +1,254 @@
+body{
+    background-color: rgb(236,242,247);
+    font-family: "Lato", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    padding: 3rem;
+}
+
+h1{
+  font-size: 40px;
+  margin: 0px;
+}
+
+p{
+  font-size: 20px;
+  word-spacing: 2px;
+  font-weight: 400;
+  margin: 0px;
+  color: grey;
+}
+
+.dark-font{
+  color: rgb(71,59,241);
+}
+
+.black-font{
+  color: black;
+}
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  width: 100vp;
+  align-items: center;
+  gap: 2rem;
+}
+
+.pricing{
+  margin: 20px 0px 20px 0px;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+
+
+.discount{
+    background-color: rgb(71,60,241, 25%);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    border-radius: 20px;
+}
+
+.cards{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.card{
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    border-radius: 10px;
+    padding: 2rem;
+}
+
+
+.price{
+  font-size: 60px;
+}
+
+ul{
+  margin-top: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+li{
+  display: flex;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.material-symbols-outlined{
+  color: rgb(152	218	160);
+}
+
+
+
+
+
+.lato-thin {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.lato-light {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.lato-black {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.lato-thin-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.lato-light-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.lato-regular-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.lato-bold-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.lato-black-italic {
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: rgb(71,60,241);
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px rgb(71,60,241);
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(42px);
+    -ms-transform: translateX(42px);
+    transform: translateX(42px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
