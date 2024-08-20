@@ -1,88 +1,129 @@
 body{
-    background-color: rgb(236,242,247);
-    font-family: "Lato", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-    padding: 3rem;
+  background-color: rgb(236,242,247);
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: flex;
+  height: 98vh;
+  align-items: center;
+  justify-content: center;
 }
 
 h1{
-  font-size: 40px;
-  margin: 0px;
+font-size: 40px;
+margin: 0px;
 }
 
 p{
-  font-size: 20px;
-  word-spacing: 2px;
-  font-weight: 400;
-  margin: 0px;
-  color: grey;
-}
-
-.dark-font{
-  color: rgb(71,59,241);
+font-size: 20px;
+word-spacing: 2px;
+font-weight: 400;
+margin: 0px;
+color: grey;
 }
 
 .black-font{
-  color: black;
+color: black;
 }
 
 .heading{
-  display: flex;
-  flex-direction: column;
-  width: 100vp;
-  align-items: center;
-  gap: 2rem;
+display: flex;
+flex-direction: column;
+width: 100vp;
+align-items: center;
+gap: 2rem;
 }
 
 .pricing{
-  margin: 20px 0px 20px 0px;
-    display: flex;
-    gap: 2rem;
-    align-items: center;
+margin: 20px 0px 20px 0px;
+  display: flex;
+  gap: 2rem;
+  align-items: center;
 }
 
 
 
 .discount{
-    background-color: rgb(71,60,241, 25%);
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    border-radius: 20px;
+  background-color: rgb(71,60,241, 25%);
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 20px;
 }
 
 .cards{
-    display: flex;
-    gap: 2rem;
-    justify-content: center;
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
 }
 
 .card{
-    background-color: white;
-    width: 400px;
-    height: 600px;
-    border-radius: 10px;
-    padding: 2rem;
+  background-color: white;
+  width: 400px;
+  height: 550px;
+  border-radius: 10px;
+  padding: 2rem;
+  box-sizing: border-box;
 }
 
 
 .price{
-  font-size: 60px;
+font-size: 60px;
 }
 
 ul{
-  margin-top: 1rem;
-  padding: 0;
-  list-style: none;
+margin-top: 3rem;
+padding: 0;
+list-style: none;
 }
 
 li{
-  display: flex;
-  align-items: center;
-  margin-top: 1rem;
+display: flex;
+align-items: center;
+margin-top: 1rem;
 }
 
 .material-symbols-outlined{
-  color: rgb(152	218	160);
+color: rgb(152	218	160);
+}
+
+.dark-font{
+  color: rgb(71,59,241);
+  }
+
+.close{
+  color: rgb(173, 176, 180);
+}
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  width: 75%;
+  height: 2rem;
+  border: 0;
+  margin: 3rem 0 1rem 0;
+  border-radius: 5px;
+  background: rgb(239,239,255);
+  transition: 0.5s;
+}
+
+.button:hover{
+  cursor: pointer;
+  background-color: rgb(71,60,241);
+  scale: 1.03;
+}
+
+.button span{
+  transition: 0.5s;
+}
+
+.button:hover span{
+  color: white;
+}
+
+.credit-card-info{
+  font-size: medium;
+  font-weight: 500;
 }
 
 
@@ -90,66 +131,82 @@ li{
 
 
 .lato-thin {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: normal;
+font-family: "Lato", sans-serif;
+font-weight: 100;
+font-style: normal;
 }
 
 .lato-light {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: normal;
+font-family: "Lato", sans-serif;
+font-weight: 300;
+font-style: normal;
 }
 
 .lato-regular {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: normal;
+font-family: "Lato", sans-serif;
+font-weight: 400;
+font-style: normal;
 }
 
 .lato-bold {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: normal;
+font-family: "Lato", sans-serif;
+font-weight: 700;
+font-style: normal;
 }
 
 .lato-black {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: normal;
+font-family: "Lato", sans-serif;
+font-weight: 900;
+font-style: normal;
 }
 
 .lato-thin-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+font-family: "Lato", sans-serif;
+font-weight: 100;
+font-style: italic;
 }
 
 .lato-light-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 300;
-  font-style: italic;
+font-family: "Lato", sans-serif;
+font-weight: 300;
+font-style: italic;
 }
 
 .lato-regular-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  font-style: italic;
+font-family: "Lato", sans-serif;
+font-weight: 400;
+font-style: italic;
 }
 
 .lato-bold-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 700;
-  font-style: italic;
+font-family: "Lato", sans-serif;
+font-weight: 700;
+font-style: italic;
 }
 
 .lato-black-italic {
-  font-family: "Lato", sans-serif;
-  font-weight: 900;
-  font-style: italic;
+font-family: "Lato", sans-serif;
+font-weight: 900;
+font-style: italic;
 }
 
+@media only screen and (max-width: 1300px) {
+  body {
+    scale: 0.8;
+  }
+}
 
+@media only screen and (max-width: 1300px) {
+  .cards {
+    flex-direction: column;
+  }
+
+  body{
+    /* height: 100%; */
+    align-items: start;
+    text-align: center;
+  }
+}
 
 
 
@@ -192,63 +249,63 @@ li{
 
 /* The switch - the box around the slider */
 .switch {
-    position: relative;
-    display: inline-block;
-    width: 80px;
-    height: 34px;
-  }
-  
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 26px;
-    width: 26px;
-    left: 4px;
-    bottom: 4px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color: rgb(71,60,241);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px rgb(71,60,241);
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(42px);
-    -ms-transform: translateX(42px);
-    transform: translateX(42px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+  position: relative;
+  display: inline-block;
+  width: 80px;
+  height: 34px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: rgb(71,60,241);
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px rgb(71,60,241);
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(42px);
+  -ms-transform: translateX(42px);
+  transform: translateX(42px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
