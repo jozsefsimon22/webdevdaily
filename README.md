@@ -16,6 +16,7 @@ Below is a list of completed challenges. Each link will navigate to the correspo
 - [Week 4](https://profile-card-jsimon.netlify.app/) - Profile Card
 - [Week 5](https://recipie-mobile-ui.netlify.app/) - Recipie Mobile UI
 - [Week 6](https://pricing-table-jsimon.netlify.app/) - Pricing Card
+- [Week 7](https://taupe-gumdrop-be0063.netlify.app/) - Office Site Hero
 
 
 (The list will be updated as new challenges are completed.)
