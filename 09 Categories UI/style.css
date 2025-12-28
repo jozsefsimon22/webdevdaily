@@ -1,0 +1,170 @@
+body {
+    height: 100vh;
+    background-image: linear-gradient(to right, rgb(248, 211, 212), rgb(237, 128, 94));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: "Google Sans Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 280;
+    font-style: normal;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    width: 1200px;
+    height: 550px;
+    padding: 50px 100px 50px 100px;
+    background-color: rgb(250, 248, 238);
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(128, 128, 128, 0.695);
+}
+
+.header-section {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-text>h1 {
+    margin: 0px;
+    font-size: 48px;
+}
+
+.card-text>p {
+    color: grey;
+
+}
+
+.navigation {
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    gap: 20px;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.95);
+    color: white;
+}
+
+.places {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.card-container{
+    position: relative;
+    width: fit-content;
+}
+
+.visit-label{
+    font-size: 24px;
+    position: absolute;
+    bottom: 50%;
+    transform: translate(100%, -50%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    color: white;
+    font-weight: bold;
+    pointer-events: none;
+}
+
+.card-container:hover .visit-label {
+    opacity: 1;
+}
+
+.place-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.title{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.place {
+    height: 200px;
+    width: 150px;
+    border-radius: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    background-size: 100%;
+    transition: 2.0s ease;
+}
+
+.place:hover{
+    background-size: 200%;
+    filter: (80%);
+    filter: brightness(50%);
+    cursor: pointer;
+}
+
+#places-1 {
+    background-image: url("./assets/image-1.jpeg");
+    
+}
+
+#places-2 {
+    background-image: url("./assets/image-2.jpeg");
+}
+
+#places-3 {
+    background-image: url("./assets/image-3.jpeg");
+    background-size: 200%;
+}
+
+#places-3:hover{
+    background-size: 300%;
+}
+
+#places-4 {
+    background-image: url("./assets/image-4.jpeg");
+    background-size: 120%;
+}
+
+#places-4:hover{
+    background-size: 240%;
+}
+
+#places-5 {
+    background-image: url("./assets/image-5.jpeg");
+    background-size: 120%;
+
+}
+
+#places-5:hover{
+    background-size: 240%;
+}
+
+#places-6 {
+    background-image: url("./assets/image-6.jpeg");
+    background-size: 150%;
+}
+
+#places-6:hover{
+    background-size: 300%;
+}
